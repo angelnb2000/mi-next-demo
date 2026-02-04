@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/**
+ * Configuración de tema global con Tailwind v4
+ * 
+ * Define colores personalizados, bordes redondeados, y otras utilidades
+ * que se usan en toda la aplicación para mantener un diseño consistente.
+ */
+@theme {
+  /* Colores de marca personalizados */
+  --color-brand: #00c3ff;
+  --color-brand-dark: #005b8e;
+
+  /* Radio de bordes para cards */
+  --radius-card: 1.5rem;
+
+  /* Colores de gradiente para la UI */
+  --color-gradient-start: #6366f1;
+  --color-gradient-end: #a855f7;
+}
+
+/* Reset básico para mejor consistencia */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos base del body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
